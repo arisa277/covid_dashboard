@@ -1,17 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Cards from "./features/covid/Cards/Cards";
-import Chart from "./features/covid/Chart/Chart"
+import DashBoard from './features/covid/Dashboard/Dashboard';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Cards />
-        <Chart />
-      </header>
-    </div>
+    <DashBoard />
   );
 }
 
